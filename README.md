@@ -14,9 +14,4 @@ A simple Godot 4.x plugin to keep notes inside your editor. Your notes are autom
 
 * **Auto-save**: Saves instantly as you type.
 * **Persistent**: Your text stays there even after restarting Godot.
-* **Native Feel**: Located in the **Bottom Panel** alongside Output and Debugger.
-
----
-
-### Technical Note
-This plugin uses **Static Typing** and **FileAccess** for high performance and reliability in Godot 4.
+* **Location**: Located in the **Bottom Panel** alongside Output and Debugger.
