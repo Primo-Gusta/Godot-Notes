@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dlcjvjptw4bsy"]
+
+[ext_resource type="Script" uid="uid://ei1he0p1qbls" path="res://addons/godot_notes/godot_notes.gd" id="1_rwxd6"]
+
+[node name="GodotNotes" type="Control" unique_id=29039393]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rwxd6")
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=320791327]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+text = "Write your notes here"
+
+[connection signal="text_changed" from="TextEdit" to="." method="_on_text_edit_text_changed"]
