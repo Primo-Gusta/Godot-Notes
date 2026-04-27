@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://dlcjvjptw4bsy"]
 
-[ext_resource type="Script" uid="uid://ei1he0p1qbls" path="res://addons/godot_notes/godot_notes.gd" id="1_rwxd6"]
+[ext_resource type="Script" uid="uid://dlvjnooa1585k" path="res://addons/godot_notes/godot_notes.gd" id="1_rwxd6"]
 
 [node name="GodotNotes" type="Control" unique_id=29039393]
+custom_minimum_size = Vector2(0, 250)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
